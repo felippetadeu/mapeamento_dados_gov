@@ -1,0 +1,22 @@
+{
+    "application": {
+        "name": "Mapeamento Dados Gov",
+        "version": "0.0.1",
+        "mode": "Debug"
+    },
+    "databases": {
+        "postgres": {
+            "connection_string": "postgresql+psycopg_async://postgres:1234@localhost/dados_gov"
+        },
+        "mongodb": {
+            "connection_string": ""
+        }
+    },
+    "adapter": {
+        "external_api": {
+            "dados_gov": {
+                "url": ""
+            }
+        }
+    }
+}
